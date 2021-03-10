@@ -1,6 +1,6 @@
-APP_URL=http://in.localhost:8003/
-APP_KEY=<insert your generated key in here>
-APP_DEBUG=true
+APP_URL=http://in.test:10080/
+APP_KEY=base64:LW48H0hdS0KuD6y5eXWJeqMEdKZx4Kh4wV5oJvc8AgE=
+APP_DEBUG=false
 MULTI_DB_ENABLED=false
 DB_HOST1=db
 DB_USERNAME1=ninja
@@ -10,10 +10,5 @@ DB_DATABASE1=ninja
 #this is a system variable please do not remove
 IS_DOCKER=true
 
-#V4 env vars
-DB_STRICT=false
-DB_HOST=db
-DB_DATABASE=ninja
-DB_USERNAME=ninja
-DB_PASSWORD=ninja
-APP_CIPHER=AES-256-CBC
+PHANTOMJS_PDF_GENERATION=false
+
